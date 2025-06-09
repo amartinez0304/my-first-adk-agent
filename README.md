@@ -34,7 +34,7 @@ weather_time_agent/
 - **Current Support**: Only `New York` is supported in both tools.
 
 ---
-### Setup the model
+### 🗣️ Setup the model
 
 The agent needs to make secure calls to this external LLM service, which requires authentication credentials. This agent requires **Gemini - Google Cloud Vertex AI**
 
