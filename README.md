@@ -1,4 +1,4 @@
-# Weather & Time Agent with Google ADK
+# 🤖 Weather & Time Agent with Google ADK
 
 This Python project defines a simple agent using the `google.adk` framework to answer user questions about the **current weather** and **local time** for a given city. The implementation includes basic tool functions and integrates them into a Gemini-based agent.
 
