@@ -37,7 +37,7 @@ weather_time_agent/
 
 ## 🚀 How to Run
 
-> **Prerequisites**: Python 3.10+ and the `google.adk` library.
+> **Prerequisites**: Python 3.10+, UV and the `google.adk` library
 
 1. **Install dependencies** (assuming `google.adk` is available):
 
@@ -46,10 +46,19 @@ uv add google-adk
 ```
 
 2. **Run the agent**:
-
+2.1 ***Dev UI (adk web)***
 ```bash
 uv run adk web
 ```
+2.2 ***Terminal (adk run)***
+```bash
+uv run adk run
+```
+2.3 ***Terminal (adk run)***
+```bash
+adk api_server
+```
+To learn how to use adk api_server for testing, refer to the [documentation on testing](https://google.github.io/adk-docs/get-started/testing/)
 
 *(You'll need to implement an input loop or trigger logic if the script doesn't already include one.)*
 
